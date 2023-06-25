@@ -281,6 +281,7 @@ footer {
  border-radius: 15px;
   height: auto;
   width: 100%;
+  justify-self: center;
 }
 
 .product-container1, .product-container2, .product-container3, .product-container4, .product-container5, .product-container6  {
