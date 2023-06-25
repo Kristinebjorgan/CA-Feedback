@@ -574,6 +574,12 @@ fieldset {
 
 /* SUCCESS PAGE */
 
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .success {
         background-color: #1B203D;
         color: whitesmoke;
