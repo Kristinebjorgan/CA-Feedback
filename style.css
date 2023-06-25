@@ -168,7 +168,7 @@ footer {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: min-content 700px;
+    grid-template-rows: min-content 750px;
     margin-bottom: 2em;
 }
 
