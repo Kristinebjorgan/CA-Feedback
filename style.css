@@ -654,4 +654,13 @@ fieldset {
 .newscontainer {
     grid-template-rows: min-content 600px;
 }
+
+
+}
+
+@media (max-width: 700px) {
+    .success {
+        width: 400px;
+        
+    }
 }
