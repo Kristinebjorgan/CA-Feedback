@@ -418,10 +418,12 @@ fieldset {
 
 /* CART PAGE */
 
+.cart-wrapper {
+    background-color: #1B203D;
+}
+
 
 .review {
-    width: 100vw;
-    height: 90vh;
     color:#1B203D;
     background-color: whitesmoke;
     float: left;
@@ -454,8 +456,6 @@ fieldset {
 
 .payment {
     opacity: 0.8;
-    width: 100vw;
-    height: 90vh;
     color:#1B203D;
     background-color: whitesmoke;
     position: sticky;
