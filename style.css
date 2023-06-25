@@ -42,8 +42,9 @@ main {
     grid-gap: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: min-content 1fr 1fr 1fr;
 }
+
 
 /* HEADER  */
 
@@ -155,7 +156,7 @@ footer {
 
 .salesbanner {
     grid-column: 1 / 4;
-    
+    justify-self: center;
 }
 
 
