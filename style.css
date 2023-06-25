@@ -525,6 +525,30 @@ fieldset {
     flex: 2;
 }
 
+.cardnumb :nth-child(1) {
+    flex: 1;
+}
+
+.cardnumb :nth-child(2) {
+    flex: 2;
+}
+
+.expiration :nth-child(1) {
+    flex: 1
+}
+
+.expiration :nth-child(2) {
+    flex: 2;
+}
+
+.cvc :nth-child(1) {
+    flex: 1;
+}
+
+.cvc :nth-child(2) {
+    flex: 2;
+}
+
 #headline-payment, #headline-review {
     padding: 20px;
     margin: 0px;
