@@ -243,10 +243,8 @@ footer {
 }
 
  .pokemon {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 3;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     background-color: whitesmoke;
     opacity: 0.9;
     color:#1B203D;
