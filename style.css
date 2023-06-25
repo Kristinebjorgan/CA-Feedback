@@ -153,6 +153,11 @@ footer {
 
 /* HOME PAGE */
 
+.salesbanner {
+    grid-column: 1 / 4;
+    
+}
+
 
 .sales {
     max-width: 100%;
