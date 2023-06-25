@@ -48,10 +48,6 @@ main {
 /* HEADER  */
 
 header {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 1;
     position: sticky;
     z-index:1000;
     top: 0;
@@ -139,10 +135,6 @@ border: none;
 
 
 footer {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-column-end: 6;
     position:sticky;
     color:#EDC771;
     background-color: #1B203D;
@@ -163,10 +155,6 @@ footer {
 
 
 .sales {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-start: 1;
     max-width: 100%;
 }
 
