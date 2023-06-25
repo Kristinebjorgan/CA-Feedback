@@ -429,6 +429,7 @@ fieldset {
     background-color: #1B203D;
     display: flex;
     margin: 2em 0;
+    border-radius: 20px;
 }
 
 
@@ -484,6 +485,7 @@ fieldset {
 .card-details {
     height: auto;
     margin: 10px;
+    row-gap: 0.5em;
  }
 
 
@@ -498,6 +500,7 @@ fieldset {
     text-transform: uppercase;
     color:#1B203D;
     background-color: #EDC771;
+    text-decoration: none;
 }
 
 .proceed {
