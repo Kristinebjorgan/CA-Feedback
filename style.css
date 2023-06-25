@@ -168,8 +168,6 @@ footer {
     grid-row-start: 1;
     grid-row-start: 1;
     max-width: 100%;
-    padding-top: 8%;
-
 }
 
 .newscontainer {
@@ -211,10 +209,6 @@ footer {
     height: auto;
     max-width: 100%
 } 
-
-.sales img {
-    max-width: 100%
-}
 
 .vr-button {
     height: 50px;
