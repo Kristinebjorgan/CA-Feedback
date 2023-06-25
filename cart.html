@@ -59,7 +59,8 @@
 
     <div class="payment">
     <h1 id="headline-payment">Choose payment method</h1>
-   
+
+   <form action="transaction-success.php" method="get">
     <div class="radioform">
              <input type="radio" id="card" name="payment-method" value="card">
              <label for="card">Card</label><br>
@@ -92,13 +93,12 @@
             <input id="cvcnumber" name="cvcnumber" type="tel" placeholder="XXX">
         </div>
 
-        <a href="games.html" class="shopping">
-            <button class="continue" type="button">Continue shopping</button>
-        </a>
-        <a href="success.html" class="checkout">
-            <button class="proceed" type="button">Proceed to checkout</button>
-        </a>
+        <a href="games.html" class="shopping">Continue shopping</a>
+       
+        <input type="submit" content="proceed to checkout">
+
         </fieldset>
+    </form>
 
     </div>
 </div>
