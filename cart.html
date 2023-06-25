@@ -71,20 +71,26 @@
     
     <fieldset class="card-details">
         <legend>Put in your carddetails</legend>
-        <label for="cardholdername"> Cardholders name
-        </label>
-        <label> 
-          <span id="cardnumb">Card Number</span>
-          <input name="cardnumb" type="text" placeholder="Card number">
-        </label>
-        <label for="expiration">
-          <span id="expiration">Expiration Date</span>
-          <input name="experationdate" type="text" placeholder="MM/YYYY">
-        </label>
-        <label for="cvc">
-          <span id="cvcnumber">CVC</span>
-          <input name="cvcnumber" type="text" placeholder="XXX">
-        </label>
+
+        <div class="cardholdername">
+        <label for="cardholdername">Cardholders name</label>
+        <input id="cardholdername" name="cardholdername" type="text" placeholder="Your name">
+        </div>
+
+        <div class="cardnumb">
+            <label for="cardnumb">Card Number</label>
+            <input id="cardnumb" name="cardnumb" type="tel" placeholder="Your card number">
+        </div>
+
+        <div class="expiration">
+            <label for="expiration">Expiration date</label>
+            <input id="expiration" name="expiration" type="text" placeholder="MM/YYYY">
+        </div>
+
+        <div class="cvc">
+            <label for="cvcnumber">CVC</label>
+            <input id="cvcnumber" name="cvcnumber" type="tel" placeholder="XXX">
+        </div>
 
         <a href="games.html" class="shopping">
             <button class="continue" type="button">Continue shopping</button>
