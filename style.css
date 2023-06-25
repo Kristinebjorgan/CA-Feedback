@@ -661,7 +661,7 @@ fieldset {
 
 
 
-@media (min-width: 1px) and (max-width: 700px) {
+@media (min-width: 501px) and (max-width: 700px) {
     .success {
         width: 400px;
 
