@@ -503,6 +503,7 @@ fieldset {
     color:#1B203D;
     background-color: #EDC771;
     text-decoration: none;
+    text-align: center;
 }
 
 .proceed {
@@ -526,6 +527,7 @@ fieldset {
 
 .cardholdername :nth-child(2) {
     flex: 2;
+    border-radius: 10px;
 }
 
 .cardnumb :nth-child(1) {
@@ -534,6 +536,7 @@ fieldset {
 
 .cardnumb :nth-child(2) {
     flex: 2;
+    border-radius: 10px;
 }
 
 .expiration :nth-child(1) {
@@ -542,6 +545,7 @@ fieldset {
 
 .expiration :nth-child(2) {
     flex: 2;
+    border-radius: 10px;
 }
 
 .cvc :nth-child(1) {
@@ -550,6 +554,7 @@ fieldset {
 
 .cvc :nth-child(2) {
     flex: 2;
+    border-radius: 10px;
 }
 
 #headline-payment, #headline-review {
