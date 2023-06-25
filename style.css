@@ -541,11 +541,11 @@ fieldset {
     flex: 2;
 }
 
-.cvc :nth-child(1) {
+.cvcnumber :nth-child(1) {
     flex: 1;
 }
 
-.cvc :nth-child(2) {
+.cvcnumber :nth-child(2) {
     flex: 2;
 }
 
