@@ -174,12 +174,12 @@ footer {
 
  .vr {
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
  }
 
 #vr-txt {
    grid-column: 2 / 3;
-   grid-row: 2 / 3;
+   grid-row: 1 / 2;
     text-align: center;
     background-color: whitesmoke;
     float: right;
