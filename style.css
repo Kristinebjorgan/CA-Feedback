@@ -512,7 +512,7 @@ fieldset {
 }
 
 
-.cvcnumber, .expiration, .cardnumb, .cardholdername {
+.cvc, .expiration, .cardnumb, .cardholdername {
     display: flex;
 
 }
