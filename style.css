@@ -657,14 +657,11 @@ fieldset {
 
 .success {
     width: 300px;
-}
-
-
+} 
+ }
 
 @media (min-width: 501px) and (max-width: 700px) {
-    .success 
+    .success {
         width: 400px;
-    
+    }   
 }
-
- }
