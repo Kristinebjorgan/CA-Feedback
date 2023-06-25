@@ -491,21 +491,19 @@ fieldset {
     margin: 2%;
 }
 
-.continue {
+.continue { 
+    padding:1em 2em;
     margin: 5%;
     border-radius: 15px;
-    height: 50px;
-    width: 35%;
     text-transform: uppercase;
     color:#1B203D;
     background-color: #EDC771;
 }
 
 .proceed {
+    padding: 1em 2em;
     margin: 5%;
     border-radius: 15px;
-    height: 50px;
-    width: 35%;
     text-transform: uppercase;
     color:#EDC771;
     background-color:#1B203D;
