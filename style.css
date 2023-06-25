@@ -343,23 +343,12 @@ a:hover {
 
   /* ABOUT PAGE */
 
-  .about1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
-
-
-.aboutcontainer {
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    width: 100%;
-    height: auto;
-    background-color: none;
-    margin-left: 50%;
-}
 
 #about {
     width: 100%;
