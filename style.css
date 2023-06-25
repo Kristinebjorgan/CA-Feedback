@@ -195,9 +195,21 @@ footer {
     margin: 0;
 }
 
+.spiderverse a {
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    margin-top: 5px;
+    border:#1B203D solid;
+    background-color: #EDC771;
+    text-align: center;
+    color: red;
+    opacity: 0.9;
+}
+
 .vr-txt-container a {
     padding: 1em 2em;
-    font-size: 22;
+    font-size: 22px;
     text-transform: uppercase;
     border-radius: 25px;
     background-color: #768CEB;
@@ -205,6 +217,7 @@ footer {
     margin-top: 10px;
     text-decoration: none;
     align-self: center;
+    
 }
 
  #vr-img {
@@ -240,16 +253,10 @@ footer {
     font-size: 22px;
     text-transform: uppercase;
     border-radius: 25px;
-    margin: auto;
     margin-top: 5px;
     border:#1B203D solid;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 4; 
     text-align: center;
     color: red;
-    font-size: 50px;
     background-color: whitesmoke;
     opacity: 0.9;
 }
