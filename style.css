@@ -23,7 +23,7 @@ body {
 
 }
 
-.grid {
+/* .grid {
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -31,7 +31,7 @@ body {
     grid-template-rows: 140px 1fr 1fr 100px;
     grid-gap: 10px;
     box-sizing: border-box;
-}
+} */
 
 main {
     flex: 1;
