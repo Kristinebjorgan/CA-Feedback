@@ -273,14 +273,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    display: grid;
-        gap: 40px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 1fr 1fr;
 }
 
 #prod1, #prod2, #prod3, #prod4, #prod5, #prod6 {  
