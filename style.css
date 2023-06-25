@@ -224,9 +224,7 @@ footer {
 
  #vr-img {
     float: right;
-    width: auto;
-    height: auto;
-    max-width: 100%
+    max-width: 100%;
 } 
 
 
