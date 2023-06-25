@@ -276,6 +276,7 @@ footer {
     grid-column: 1 / -1;
     justify-content: center;
     column-gap: 5%;
+    row-gap: 2em;
 }
 
 #prod1, #prod2, #prod3, #prod4, #prod5, #prod6 {  
