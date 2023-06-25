@@ -418,23 +418,6 @@ fieldset {
 
 /* CART PAGE */
 
-.cart-container{
-    width: 70vw;
-    height: 100vh;
-    position: static;
-    margin: 10%;
-    padding: 10px;
-    background-color: #1B203D;
-    border-radius: 20px;
-    /* box-shadow: 0px 25px 40px #1687d933; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: space-evenly;
-    justify-content: center;
-    gap: 2%;
-
-   }
 
 .review {
     width: 100vw;
