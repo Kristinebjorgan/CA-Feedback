@@ -666,3 +666,9 @@ fieldset {
         width: 400px;
     }   
 }
+
+@media (max-width: 800px) {
+    .Equipment, .Outlet {
+        display: none;
+    }
+}
