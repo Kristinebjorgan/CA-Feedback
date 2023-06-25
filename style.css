@@ -418,8 +418,14 @@ fieldset {
 
 /* CART PAGE */
 
+.cart-main {
+    display: flex;
+    flex: 1;
+}
+
 .cart-wrapper {
     background-color: #1B203D;
+    display: flex;
 }
 
 
