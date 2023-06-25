@@ -170,13 +170,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
-    margin-top: 20px;
-    height: 100%;
-    width: 100vw;
 }
 
  .vr {
-    max-height: 100vh;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
  }
