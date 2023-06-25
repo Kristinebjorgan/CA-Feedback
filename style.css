@@ -132,9 +132,12 @@ footer {
     width: auto;
     padding: 50px;
     z-index:1000;
+    display: flex;
+    justify-content: center;
 }
 
 #About, #Contact {
+    margin: 0 1em;
     color: #EDC771;
 }
 
@@ -217,17 +220,6 @@ footer {
     max-width: 100%;
 } 
 
-
-
-/* .vr-button {
-    font-size: 22;
-    text-transform: uppercase;
-    border-radius: 25px;
-    color:#1B203D;
-    background-color: #768CEB;
-    border: solid #1B203D;
-    margin-top: 10px;
-}  */
 
 .spiderverse {
     grid-column: 1 / 2;
@@ -322,16 +314,12 @@ a:hover {
     font-weight: bolder;
 }
 
-.buynew, .buyused {
-    padding: 10px;
-    width: 8em;
-}
-
 .buynew {
     background-color: #1B203D;
     color:#EDC771;
     border-radius: 15px;
     border:#1B203D;
+    text-decoration: none;
 }
 
 .buyused {
@@ -339,6 +327,7 @@ a:hover {
     color:#1B203D;
     border-radius: 15px;
     border:#1B203D;
+    text-decoration: none;
 }
 
   /* ABOUT PAGE */
