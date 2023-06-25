@@ -583,9 +583,9 @@ fieldset {
 .success {
         background-color: #1B203D;
         color: whitesmoke;
+        width: 600px;
         padding: 20px;
         margin: 5em;
-        margin-left: 20em;
         position: static;
         border-radius: 15px;
         text-align: center;
