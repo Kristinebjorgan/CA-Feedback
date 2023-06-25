@@ -514,9 +514,16 @@ fieldset {
 
 .cvcnumber, .expiration, .cardnumb, .cardholdername {
     display: flex;
-    
+
 }
 
+.cardholdername :nth-child(1) {
+    flex: 1;
+}
+
+.cardholdername :nth-child(2) {
+    flex: 2:
+}
 
 #headline-payment, #headline-review {
     padding: 20px;
