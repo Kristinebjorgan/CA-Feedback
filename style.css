@@ -512,11 +512,9 @@ fieldset {
 }
 
 
-#cvcnumber, #expiration, #cardnumb, #cardholdername {
-    padding: 10%;
-    margin: 10%;
-    color:#1B203D;
-    margin-top: 10%;
+.cvcnumber, .expiration, .cardnumb, .cardholdername {
+    display: flex;
+    
 }
 
 
