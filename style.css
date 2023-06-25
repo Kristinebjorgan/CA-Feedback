@@ -201,8 +201,10 @@ footer {
     text-transform: uppercase;
     border-radius: 25px;
     background-color: #768CEB;
-    border: solid #1B203D;
+    color: yellow;
     margin-top: 10px;
+    text-decoration: none;
+    align-self: center;
 }
 
  #vr-img {
