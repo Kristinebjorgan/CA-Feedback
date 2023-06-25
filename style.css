@@ -154,7 +154,7 @@ footer {
 .salesbanner {
     grid-column: 1 / 3;
     justify-self: center;
-    margin-bottom: 2em;
+    margin: 2em 0;
 }
 
 
