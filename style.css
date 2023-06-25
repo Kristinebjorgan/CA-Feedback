@@ -274,7 +274,7 @@ footer {
     flex-wrap: wrap;
     max-width: 100%;
     grid-column: 1 / -1;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #prod1, #prod2, #prod3, #prod4, #prod5, #prod6 {  
