@@ -522,7 +522,7 @@ fieldset {
 }
 
 .cardholdername :nth-child(2) {
-    flex: 2:
+    flex: 2;
 }
 
 #headline-payment, #headline-review {
