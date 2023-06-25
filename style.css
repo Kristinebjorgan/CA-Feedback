@@ -196,6 +196,7 @@ footer {
 }
 
 .spiderverse a {
+    padding: 1em 2em;
     font-size: 20px;
     text-transform: uppercase;
     border-radius: 25px;
