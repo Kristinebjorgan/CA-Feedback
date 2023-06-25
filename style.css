@@ -3,7 +3,6 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Magra', sans-serif;
-    text-decoration: none;
     background-image:url(images/universebg.png); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -56,6 +55,7 @@ header {
 }
 
 .Games, .Equipment, .Outlet, .Home {
+    text-decoration: none;
     color:#EDC771;
     background-color: linear-gradient(#0f1224 80%, #1B203D 20%);
     margin: 2%;
@@ -184,6 +184,7 @@ footer {
     float: right;
     color:#1B203D;
     opacity: 0.9;
+    margin: 0;
 }
 
  #vr-img {
