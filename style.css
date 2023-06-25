@@ -177,10 +177,14 @@ footer {
     grid-row: 1 / 2;
  }
 
- .newscontainer :nth-child(2) {
+ .vr-txt-container {
    grid-column: 2 / 3;
    grid-row: 1 / 2;
+   background-color: whitesmoke;
+   display: flex;
+   flex-direction: column;
   }
+
 
 #vr-txt {
     text-align: center;
@@ -193,7 +197,6 @@ footer {
 
 .vr-txt a {
     padding: 1em 2em;
-    color:#1B203D;
     font-size: 22;
     text-transform: uppercase;
     border-radius: 25px;
