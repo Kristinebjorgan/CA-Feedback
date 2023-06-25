@@ -188,6 +188,17 @@ footer {
     margin: 0;
 }
 
+.vr-txt a {
+    padding: 1em 2em;
+    color:#1B203D;
+    font-size: 22;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: #768CEB;
+    border: solid #1B203D;
+    margin-top: 10px;
+}
+
  #vr-img {
     float: right;
     width: auto;
