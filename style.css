@@ -119,29 +119,6 @@ border: none;
 }
 
 
-/* FOOTER */
-
-
-footer {
-    position: sticky;
-    color:#EDC771;
-    background-color: #1B203D;
-    font-size:15px;
-    letter-spacing: 2px;
-    height: auto;
-    width: auto;
-    padding: 50px;
-    z-index:1000;
-    display: flex;
-    justify-content: center;
-}
-
-#About, #Contact {
-    margin: 0 1em;
-    color: #EDC771;
-}
-
-
 /* HOME PAGE */
 
 .salesbanner {
@@ -312,6 +289,7 @@ a:hover {
 .readmore {
     padding: 10px;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 .buynew {
@@ -330,79 +308,43 @@ a:hover {
     text-decoration: none;
 }
 
-  /* ABOUT PAGE */
+/* PRODUCT PAGE */
 
-  .about-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-  }
-
-#about {
-    width: 60%;
+.forgelegend-container {
+    grid-column-start: 1;
+    grid-column-end: 4;
     height: auto;
-    background-color:#1B203D;
+    width: auto;
+    border-radius: 20px;
+}
+
+.forgelgende-readmore {
+    padding: 40px;
+    background-color: whitesmoke;
+    /* opacity: 0.8; */
     border-radius: 15px;
-    padding:15px;
-    text-align: center;
-    line-height: 2;
-    color: white;
-
-}
-
-  /* CONTACT PAGE */
-
-.form-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.form {
-background-color:#1B203D;
-  width: 500px;
-  height: 400px;
-  border-radius: 5em;
-  padding-left: 12cqb;
-  padding-top: 2em;
-  
-}
-
-fieldset {
-    border:1em;
-}
-
-#message {
-    height: 100px;
-    width: 300px;
-}
-
-#email {
-    height: auto;
-    width: 300px;
-}
-
-#name {
-    height: auto;
-    width: 300px;
-}
-
-#name, #email, #message {
-    display: flex;
-    border-radius: 10px;
-    text-align: center;
-    opacity: 0.2;
-}
-
-#send {
-    background-color:#768CEB;
     color:#1B203D;
     text-align: center;
-    border-radius: 15px;
-    margin: 10%;
-    width: 250px;
-    height: 40px;
+}
+
+.forgelegendimg {
+    margin: 2em;
+    border-radius: 20px;
+}
+
+.button-capture {
+    padding: 20px;
+    margin: 20px;
+}
+
+.buynew, .buyused {
+    padding: 20px;
+    margin: 2em;
+}
+
+.href {
+    padding: 10px;
+    margin: 0;
 }
 
 /* CART PAGE */
@@ -591,44 +533,107 @@ fieldset {
 }
 
 
-/* PRODUCT PAGE */
+  /* ABOUT PAGE */
 
-.forgelegend-container {
-    grid-column-start: 1;
-    grid-column-end: 4;
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+#about {
+    width: 60%;
     height: auto;
-    width: auto;
-    border-radius: 20px;
+    background-color:#1B203D;
+    border-radius: 15px;
+    padding:15px;
+    text-align: center;
+    line-height: 2;
+    color: white;
+
 }
 
-.forgelgende-readmore {
-    padding: 40px;
-    background-color: whitesmoke;
-    /* opacity: 0.8; */
-    border-radius: 15px;
+  /* CONTACT PAGE */
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+background-color:#1B203D;
+  width: 500px;
+  height: 400px;
+  border-radius: 5em;
+  padding-left: 12cqb;
+  padding-top: 2em;
+  
+}
+
+fieldset {
+    border:1em;
+}
+
+#message {
+    height: 100px;
+    width: 300px;
+}
+
+#email {
+    height: auto;
+    width: 300px;
+}
+
+#name {
+    height: auto;
+    width: 300px;
+}
+
+#name, #email, #message {
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.2;
+}
+
+#send {
+    background-color:#768CEB;
     color:#1B203D;
     text-align: center;
+    border-radius: 15px;
+    margin: 10%;
+    width: 250px;
+    height: 40px;
 }
 
-.forgelegendimg {
-    margin: 2em;
-    border-radius: 20px;
+
+/* FOOTER */
+
+
+footer {
+    position: sticky;
+    color:#EDC771;
+    background-color: #1B203D;
+    font-size:15px;
+    letter-spacing: 2px;
+    height: auto;
+    width: auto;
+    padding: 50px;
+    z-index:1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.button-capture {
-    padding: 20px;
-    margin: 20px;
+#Aboutus, #Contact {
+    margin: 0 1em;
+    color: #EDC771;
+    text-decoration: none;
 }
 
-.buynew, .buyused {
-    padding: 20px;
-    margin: 2em;
-}
-
-.href {
-    padding: 10px;
-    margin: 0;
-}
+/* @MEDIA */
 
 @media (max-width: 500px) {
     .vr-txt-container a {
