@@ -105,7 +105,7 @@ header {
     position: sticky;
 }
 
-#icon {
+#user, #heart, #cart {
     padding: 10px;
     justify-content: baseline;
 }
@@ -191,7 +191,7 @@ header {
     align-self: center;
 }
 
- #img {
+ .spiderverse, .pokemon, .vr  {
     max-width: 100%;
 } 
 
@@ -204,7 +204,6 @@ header {
     background-color: whitesmoke;
     opacity: 0.9;
 }
-
  .pokemon {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
