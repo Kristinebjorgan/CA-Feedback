@@ -1,4 +1,5 @@
 # GameHub - An Universe of Games
+![Gamehub](images/gamehub_logo.png)
 
 Welcome to GameHub, the universe of games. This project is a culmination of my first months of learning, and I aimed to create an informative, easy-to-navigate, and intuitive gaming website that captures the "universe" aspect within every pixel.
 
